@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.option-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: inline-block;
+  width: 80%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  cursor: pointer;
+  margin-bottom: 15px;
+  text-align: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.option.selected {
+  background-color: #d0f0c0;
+  border-color: #4CAF50;
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:disabled {
+  border-color: #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #4CAF50;
+  color: white;
+}
