@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.textArea {
+    width: 600px; 
+    height: 500px;
+    border: 1px solid black; 
+    margin-bottom: 20px; 
+}
+
+.voiceImg {
+    margin-bottom: 20px; 
+}
+
+button {
+    width: 120px;
+    height: 36px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
