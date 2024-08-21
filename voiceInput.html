@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./voiceInput.css" rel="stylesheet">
-    <title>Document</title>
+    <title>TripTale</title>
 </head>
 <body>
-    <h1 align="center">로고자리</h1> <!-- 이건 로고 이미지 들어올 공간 -->
+    <header>
+        <h1 class="logo">TripTale</h1>
+    </header>
+    
     <div class="container">
-        <div class="textArea">
-            <!-- 음성인식 텍스트(A text가 적힐 곳) -->
-        </div>
-            
-        <div class="voiceImg">
-            <img src="voiceImg.png">
-        </div>
-            
-        <div class="nextBtn">
-            <button id="next">다음</button>
+        <div class="box">
+            <div class="backgroundImg"></div>
+
+            <div class="textArea">
+                <!-- 음성인식 텍스트(A text가 적힐 곳) -->
+            </div>
+                
+            <div class="voiceImg">
+                <button id="voiceBtn">
+                    <img src="voiceImg.png" alt="음성인식 버튼 이미지" id="clickImg">    
+                </button>    
+            </div>
+                
+            <div class="nextBtn">
+                <button id="next">다음</button>
+            </div>
         </div>
     </div>    
+
+    <script src="voiceInput.js"></script>
 </body>
 </html>
