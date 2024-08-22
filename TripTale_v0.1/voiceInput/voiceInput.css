@@ -59,7 +59,9 @@ body {
 .textArea {
     width: 400px;
     height: 500px;
-    border: 2px solid #074583; 
+    border: 2px solid; 
+    border-image: linear-gradient(45deg, #e0c3fc, #8ec5fc);
+    border-image-slice: 1;
     background-color: white;
     margin-bottom: 20px; 
 }
@@ -68,7 +70,7 @@ body {
     width: 80px;
     height: auto;
     background-color: white;
-    border: 2px solid #074583;
+    border: 2px solid #e0c3fc;
     border-radius: 50%; 
     object-fit: cover;
 }
