@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="../images/logo.png" alt="Logo" class="logo">
+        <form id="login-form">
+            <input type="text" name="id" id="username" placeholder="아이디" required>
+            <input type="password" name="pw" id="password" placeholder="비밀번호" required>
+            <input type="email" name="email" id="email" placeholder="이메일" style="display: none;">
+            <input type="password" name="confirm-pw" id="confirmPassword" placeholder="비밀번호 확인" style="display: none;">
+            <button type="submit" class="login-button">로그인</button>
+        </form>
+        <div class="google-login">
+            <a href="#">구글 로그인</a> | <a href="#">회원가입</a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입 페이지</title>
+        <link href="signUp.css" rel="stylesheet" type="text/css"> <!--css 불러오기-->
+    </head>
+    <body>
+        <div class="signup-container">
+            <img src="../images/logo.png" alt="로고 이미지" class="logo"> <!--로고 이미지-->
+            <h2>Sign Up</h2>
+            <form> <!--회원가입 라벨-->
+                <label for="username">Name</label>  <!--이름-->
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">ID:</label> <!--이메일-->
+                <input type="text" id="email" name="email" required>
+
+                <label for="password">Password:</label> <!--비밀번호-->
+                <input type="password" id="password" name="password" required>
+
+                <label>Confirm Password: </label> <!--비밀번호 확인-->
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                             
+                <button type="submit" id="signUpBtn">Sign up</button> <!--회원가입 버튼-->
+               
+            </form>
+        </divd>
+    </body>    
+</html>
